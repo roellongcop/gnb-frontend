@@ -183,12 +183,12 @@ document.addEventListener("DOMContentLoaded", function() {
     var $newRow = $(newRow).hide(); // Hide the new row initially
 
     // Append the new row to the table body
-    $(".table tbody").append($newRow);
+    $(".latest-win-tab-container .table tbody").append($newRow);
 
     // Slide down or fade in the new row for a smooth appearance
 
     // Animate and remove the first row
-    $(".table tbody tr:first").slideUp(300, function() {
+    $(".latest-win-tab-container .table tbody tr:first").slideUp(300, function() {
       $(this).remove();
       $newRow.fadeIn(1000); // You can also use slideDown() if you prefer
     });
