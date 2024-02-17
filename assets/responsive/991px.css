@@ -1,0 +1,90 @@
+@media only screen and (max-width: 991px) {
+  main .promotions-container .promotions-inner-container {
+    padding: 0;
+  }
+  main .promotions-container .promotions-inner-container h2 {
+    font-size: 1.4rem;
+  }
+  .account-profile {
+    width: 80%;
+  }
+  main .promotions-main-container {
+    flex-direction: column;
+  }
+  main .promotions-wrapper {
+    width: 100%;
+    margin-left: 0;
+  }
+  footer .account-container {
+    display: flex;
+  }
+  /* Initial state of the menu: hidden off the left side of the screen */
+  #navbarSupportedContent {
+  
+  }
+  /* State of the menu when it's shown: moved into view */
+  .show-menu {
+    left: 0 !important; /* Move it into view */
+  }
+  header .navbar .navbar-toggler {
+    background: #1b222d;
+    border-color: #1b222d;
+  }
+  header .navbar .navbar-toggler:hover {
+    background: #0f141c;
+    border-color: #0f141c;
+  }
+  .container {
+    max-width: 900px!important;
+  }
+  header .navbar-nav {
+    align-items: center !important;
+    padding-top: 1rem !important;
+    gap: 0.5rem;
+  }
+  header .close-icon-container {
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+  header .close-icon-container button {
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+  }
+  header .close-icon-container button:hover {
+    background: #0f141c;
+  }
+  header .nav-item {
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .nav-link.active {
+    background: #0f141c;
+  }
+  header .nav-link {
+    width: inherit;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+  header .navbar .header-button {
+    display: flex;
+    justify-content: end;
+  }
+  footer .left-image-container img {
+    max-height: 50px;
+  }
+}

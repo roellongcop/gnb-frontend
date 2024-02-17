@@ -1,0 +1,90 @@
+@media only screen and (max-width: 769px) {
+  main .promotions-container .promotions-inner-container h2 {
+    font-size: 1rem;
+  }
+  .td-promotion-image {
+    width: 72%;
+  }
+  .bonus-boost-container h5 {
+    font-size: 24px;
+  }
+  .bonus-boost-container p {
+    font-size: 12px;
+  }
+  .bonus-boost-container h2 {
+    font-size: 50px;
+  }
+  .home-thumbnail-container .image-container {
+    width: 23.5%;
+  }
+  .bonus-boost-container {
+    padding: 0.5rem 1rem;
+  }
+  .banner-wrapper h1 {
+    font-size: 3rem;
+  }
+  .banner-wrapper p {
+    font-size: 12px;
+  }
+  .header-menu-image-container p {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .button-link-container {
+    padding: 0 30px;
+  }
+  .mobile-md{
+    display: none;
+  }
+  .account-profile {
+    width: 95%;
+  }
+  .affiliates-container .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .affiliates-container .card-container .card {
+    width: 100%;
+  }
+  section.hero-container {
+    height: 74vw;
+  }
+  section.hero-container h1.title {
+    font-size: 2rem;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  section.hero-container .main-title-container {
+    max-width: 30rem;
+  }
+  section.hero-container .hero-text-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  section.hero-container p.sub-title {
+    font-size: 12px;
+    max-width: 18rem;
+  }
+  #navbarSupportedContent {
+    width: 40%; /* Adjust based on your preference */
+  }
+  header .mobile-header-logo {
+    width: 82px;
+    margin-left: 5px;
+  }
+  section.hero-container .banner-image-container .main-image {
+    width: 40vw;
+  }
+  section.hero-container .banner-image-container .side-image {
+    width: 27vw;
+  }
+  section.hero-container .banner-image-container h5 {
+    bottom: -1rem;
+  }
+  .thumbnail-container {
+    flex: 0 0 calc(33% - 13px);
+  }
+  .thumbnail-main-container {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1441px) {
+  .thumbnail-main-container.scrollable {
+    justify-content: flex-start;
+  }
+  section.hero-container {
+    height: 62vw;
+  }
+  section.hero-container .banner-image-container .main-image {
+    width: 34vw;
+  }
+  section.hero-container .banner-image-container .side-image {
+    width: 25vw;
+  }
+}

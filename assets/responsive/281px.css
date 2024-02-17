@@ -1,0 +1,99 @@
+@media only screen and (max-width: 281px) {
+  .btn-sign-up, .btn-login {
+    min-width: 76px !important;
+  }
+  .btn.py-2 {
+    padding-top: 5px !important; 
+     padding-bottom: 5px !important;
+  }
+  header .navbar .header-button {
+    gap: 5px;
+  }
+  .tabbar section div:nth-of-type(2) h2 {
+    font-size: 16px;
+  }
+  .tabbar section div:nth-of-type(1) p {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .tabbar section div:nth-of-type(1) h2 {
+    font-size: 24px;
+  }
+  .banner-title {
+    width: 67%;
+  }
+  .button-link-container-wrapper p.poppins-medium {
+    font-size: 10px;
+  }
+  .header-menu-image-container p {
+    font-size: 8px;
+  }
+  header .main-header img {
+    max-width: 70px;
+  }
+  header .main-menu {
+    gap: 0.2rem;
+  }
+  header .main-menu svg {
+    width: 40px;
+  }
+  header .navbar .btn-language {
+    padding: 6px 8px;
+  }
+  section.hero-container .banner-image-container {
+    margin-top: 1rem;
+  }
+  section.hero-container .hero-text-container {
+    padding-top: 1rem;
+  }
+  section.hero-container .banner-image-container h5 {
+    font-size: 9px;
+  }
+  h5.bottom-title {
+    font-size: 14px;
+  }
+  main .tab-container .tab-item a {
+    font-size: 11px;
+  }
+  .search-container .dropdown .dropdown-toggle {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  main .search-container {
+    flex-direction: column;
+  }
+  main .search-container input {
+    font-size: 12px;
+  }
+  main .search-container input::placeholder{
+    font-size: 12px;
+  }
+  main .search-container input:-ms-input-placeholder {
+    font-size: 12px;
+  }
+  main .search-container input::-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .search-container .dropdown {
+    width: 100%;
+  }
+  main .search-container .input-group {
+    max-width: unset;
+    width: 100%;
+  }
+  main .see-all-container {
+    display: none;
+  }
+  .thumbnail-main-container.scrollable {
+    margin-top: 2rem;
+  }
+  .thumbnail-container {
+    padding: 3px;
+  }
+  .thumbnail-container.scrollable {
+    flex: 0 0 calc(48% - 13px);
+  }
+  .thumbnail-container.scrollable a {
+    padding: 3px;
+  }
+}

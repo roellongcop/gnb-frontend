@@ -1,0 +1,265 @@
+/*iphone 14 pro max*/
+@media only screen and (max-width: 431px) {
+  main .promotions-container .title {
+    font-size: 1.5rem;
+  }
+  main .promotions-container .promotions-inner-container button {
+    padding: 0.3rem 1.5rem;
+  }
+  main .promotions-container .promotions-inner-container p {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  main .promotions-container .row {
+    max-width: 200px;
+  }
+  header .account-container {
+    gap: 4px;
+  }
+  .tabbar section div:nth-of-type(2) h2 {
+    font-size: 20px;
+  }
+  .tabbar section div:nth-of-type(2) p {
+    font-size: 12px;
+  }
+ 
+  .thumbnail {
+    flex: 0 0 calc(50% - 5px);
+  }
+  .bottom-menu-wrapper p {
+    font-size: 10px;
+  }
+  .tab-style2 div {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .home-thumbnail-container {
+    gap: 7px;
+  }
+  .home-thumbnail-container .image-container {
+    height: 90px;
+  }
+  .bonus-boost-container {
+    border-radius: 8px;
+    padding: 0.5rem 0.5rem;
+  }
+  .button-link-container {
+    height: 55px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  .banner-wrapper {
+    background-position: 80% center !important;
+  }
+  .button-link-container-wrapper p.poppins-medium {
+    font-size: 16px;
+  }
+  .header-menu-image-container p {
+    font-size: 11px;
+  }
+  section.hero-container {
+    height: 79vw;
+  }
+  section.hero-container p.sub-title {
+    max-width: 15rem;
+    font-size: 10px;
+    margin-top: 9px;
+    line-height: 12px;
+  }
+  section.hero-container h1.title {
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+  section.hero-container .main-title-container {
+    max-width: 20rem;
+  }
+  section.hero-container .hero-text-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  section.hero-container .banner-image-container h5 {
+    font-size: 11px;
+  }
+  h5.bottom-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  main .tab-main-container {
+    flex-direction: column;
+    padding-top: 0;
+  }
+  main .search-container {
+    border-bottom: none;
+    width: 100%;
+    gap: 0.5rem;
+  }
+  .thumbnail-container {
+    flex: 0 0 calc(40% - 13px);
+    margin: 0px;
+  }
+  main .tab-container-main-menu {
+    font-size: 12px;
+  }
+  .thumbnail-container.scrollable {
+    gap: 0.5rem;
+    flex: 0 0 calc(40% - 13px);
+  }
+  .thumbnail-main-container {
+    margin-top: 0rem;
+  }
+  .popular-container .thumbnail-container,
+  .slot-container .thumbnail-container,
+  .live-container .thumbnail-container,
+  .new-game-container .thumbnail-container {
+    flex: 0 0 calc(52% - 13px);
+  }
+
+  main .tab-container-right-tool {
+    display: none;
+  }
+  .search-container .dropdown {
+    display: inline-block;
+    width: 50%;
+  }
+  .search-container .dropdown .dropdown-toggle {
+    border-radius: 10px;
+    background-color: #0F141C;
+    color: #5E5E5E;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+  }
+  .search-container .dropdown-toggle::after {
+    position: absolute;
+    right: 8px;
+    top: 14px;
+    color: #4BA160;
+  }
+  .search-container .dropdown-menu {
+    font-size: 14px;
+    background: #0f141c;
+    border: 1px solid #616161;
+  }
+  .search-container .dropdown-menu .dropdown-item {
+    color: #616161;
+  }
+  main .search-container .input-group {
+    min-width: unset;
+    width: auto;
+    max-width: 152px;
+  }
+  main .see-all-link {
+    display: none;
+  }
+  main .see-all-container {
+    gap: 5px;
+  }
+  footer .footer-inner-container {
+    flex-direction: column;
+  }
+  footer .footer-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  footer .footer-container .footer-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  footer .footer-title-container {
+    text-align: center;
+    width: 100%;
+  }
+  footer .footer-title-container .footer-title {
+    margin-top: 1.5rem;
+  }
+  footer .second-section .footer-title {
+    margin-top: 1.5rem;
+  }
+  header .main-header img {
+    max-width: 100px;
+  }
+  header .main-menu svg {
+    width: 50px;
+  }
+  header .navbar .btn-language img {
+    display: none;
+  }
+  .selected-language {
+    display: inline-block;
+    font-size: 12px;
+  }
+  .footer-bottom-container .img-container {
+    max-width: 70px;
+  }
+  .footer-bottom-container .left-image-container .img-container:nth-of-type(2) {
+    max-width: 110px;
+  }
+  header .navbar .btn-language {
+    padding: 8px 10px;
+    width: 90px;
+    border-radius: 10px;
+  }
+  #navbarSupportedContent  {
+    width: 70%;
+  }
+  .account-profile h1 {
+    margin-top: 2rem!important;
+    margin-bottom: 2rem!important;
+  }
+  .nav-fill .nav-item {
+    flex: unset;
+  }
+  .nav-fill .nav-item .nav-link {
+    text-wrap: nowrap;
+  }
+  .transaction-history-container .transaction-inner-container {
+    flex-direction: column;
+    margin-top: 0 !important;
+  }
+  .account-profile .country-code {
+    display: none;
+  }
+  .account-profile .country-code-container {
+    padding-left: 9px;
+    padding-right: 9px;
+    justify-content: center;
+    width: 100%;
+  }
+  .account-profile .country-code-container .dropdown {
+    width: 100%;
+  }
+  .account-profile .dropdown button {
+    width: 100%;
+  }
+  #modal-signup .signup-bg, #modal-login .login-bg {
+    display: none;
+  }
+  #modal-signup .signup-content, #modal-login .login-content {
+    width: 100%;
+  }
+  main.terms-and-condition-container .main-container, 
+  main.affiliates-container .affiliates-main-container {
+    padding: 2rem 1rem;
+  }
+  br.mobile {
+    display: block;
+  }
+  .nav-fill .nav-item .nav-link.active, .account-profile .form-title {
+    font-weight: normal;
+  }
+  .thumbnail-container.scrollable a {
+    padding: 3px;
+  }
+  .thumbnail-container {
+    padding: 3px;
+  } 
+  main.affiliates-container .gray-card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: -webkit-fill-available;
+  }
+  main .promotions-main-container {
+    padding: 1rem 1rem;
+  }
+}

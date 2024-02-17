@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1025px) {
+  .thumbnail {
+    flex: 0 0 calc(25% - 8px);
+    margin-bottom: 0;
+  }
+  .tab-thumbnail-container {
+    justify-content: center;
+    gap: 10px;
+  }
+  .jackpot-container h2 {
+    font-size: 34px;
+    line-height: 35px;
+  }
+  .home-thumbnail-container .image-container {
+    width: 23%;
+    height: 116px;
+  }
+  .home-thumbnail-container {
+    justify-content: center;
+  }
+  .button-link-container {
+    padding: 0 50px;
+  }
+  .account-profile {
+    width: 70%;
+  }
+  main .promotions-main-container,
+  main.terms-and-condition-container .main-container,
+  main.affiliates-container .affiliates-main-container {
+    margin: 2rem 0rem;
+  }
+  .card {
+    padding: 0.5rem 1rem;
+  }
+  .visible-false {
+    display: none;
+  }
+  main .affiliates-main-container .row:nth-child(3) {
+    flex-direction: column;
+  }
+  main .promotions-container .promotions-inner-container {
+/*    padding: 1rem 0rem;*/
+  }
+  main .promotions-container .row {
+    
+  }
+/*  main .promotions-container .img-container,*/
+  main .promotions-container .text-container {
+    padding-left: 10px;
+  }
+  footer .account-container {
+    display: flex;
+  }
+  section.hero-container {
+    height: 78vw;
+  }
+  section.hero-container h1.title {
+    font-size: 2.5rem;
+  }
+  section.hero-container .banner-image-container .main-image {
+    width: 40vw;
+  }
+  section.hero-container .banner-image-container .side-image {
+    width: 29vw;
+  }
+  header .navbar .btn-language {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  section.hero-container p.sub-title {
+    max-width: 20rem;
+    font-size: 13px;
+  }
+  /*START FOOTER*/
+  footer .second-section {
+    width: 100%;
+  }
+  footer .second-section .footer-title {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  footer .left-image-container {
+    width: 100%;
+    justify-content: center;
+  }
+  footer .right-image-container {
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: center;
+  }
+  footer .footer-title-container {
+    width: 25%;
+  }
+  footer .licensed-text {
+    text-align: center;
+  }
+  footer .partner-images-container {
+    justify-content: center;
+  }
+  footer .notice {
+    text-align: center;
+  }
+  footer .copy-right {
+    text-align: center;
+  }
+  /*END FOOTER*/
+}

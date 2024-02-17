@@ -1,0 +1,30 @@
+@media only screen and (max-width: 376px) {
+  .banner-wrapper h1 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+  }
+  .banner-wrapper {
+    background-position: 65% center !important;
+  }
+  section.hero-container .hero-text-container {
+    padding-top: 2rem;
+  }
+  section.hero-container p.sub-title {
+    display: none;
+  }
+  .account-profile .tab-content {
+    padding: 1.5rem 1rem;
+  }
+  #navbarSupportedContent {
+    width: 70%;
+  }
+  section.hero-container {
+    height: 84vw;
+  }
+  header .main-menu svg {
+    width: 58px;
+  }
+  .thumbnail-container {
+    flex: 0 0 calc(49% - 11px);
+  }
+}

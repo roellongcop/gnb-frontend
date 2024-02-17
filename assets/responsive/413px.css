@@ -1,0 +1,21 @@
+@media only screen and (max-width: 413px) {
+  .button-link-container {
+    height: 50px;
+    padding: 0 10px;
+  }
+  .home-thumbnail-container .image-container {
+    width: 48.5%;
+  }
+  .thumbnail-container.scrollable a {
+    padding: 3px;
+  }
+  .thumbnail-container {
+    padding: 3px;
+  }
+  .thumbnail-container.scrollable {
+    flex: 0 0 calc(45% - 13px);
+  }
+  #navbarSupportedContent {
+    width: 70%;
+  }
+}
