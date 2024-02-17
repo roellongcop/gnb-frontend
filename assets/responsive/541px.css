@@ -2,6 +2,7 @@
   main .promotions-container .row {
     flex-wrap: nowrap;
     max-width: 240px;
+    margin-bottom: 0.5rem!important;
   }
   main .promotions-container img {
     height: -webkit-fill-available;
