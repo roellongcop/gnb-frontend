@@ -1252,8 +1252,8 @@ main.affiliates-container form button:hover {
   padding: 13px;
 }
 .deposit-tab .btn-block-fill:hover {
-  background: #FFF;
-  color: #125C50;
+  background: #37C5A4;
+  color: #FFF;
 }
 
 .deposit-tab .deposit-notes {
@@ -1407,8 +1407,8 @@ main.affiliates-container form button:hover {
   text-decoration: none;
 }
 .bonus-btn:hover {
-  background: #FFF;
-  color: #125C50;
+  background: #37C5A4;
+  color: #FFF;
 }
 .invite-text {
   color: #A5A5A5 !important;
