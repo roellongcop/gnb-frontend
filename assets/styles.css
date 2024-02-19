@@ -1152,7 +1152,7 @@ main.affiliates-container form button:hover {
   justify-content: center;
 }
 .account-profile .tab-content {
-  background: #161B24;
+  background: #042431;
   padding: 2rem 1.8rem;
   border-radius: 20px;
 }
@@ -1598,12 +1598,23 @@ input.current-balance {
   background: #125C50;
   border-radius: 7px;
   padding: 5px 10px;
+  overflow: hidden;
+  width: 100%;
 }
 .breadcrumbs-container img {
   max-width: 20px;
 }
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-200%); }
+}
 .breadcrumbs-container p {
-  margin-bottom: 0;color: #FFF;
+  margin-bottom: 0;
+  color: #FFF;
+  display: block;
+  animation: marquee 40s linear infinite;
+  white-space: nowrap;
+  width: 90%;
 }
 .banner-wrapper {
   background-size: cover !important;
