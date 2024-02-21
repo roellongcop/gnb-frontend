@@ -6,6 +6,7 @@
   }
   main .promotions-container img {
     height: -webkit-fill-available;
+    max-height: 110px;
   }
   .td-promotion-image {
     width: 65%;
