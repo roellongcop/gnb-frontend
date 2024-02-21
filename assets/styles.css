@@ -701,7 +701,6 @@ main .promotions-container .title {
 }
 main .promotions-container img {
   border-radius: 10px;
-  max-height: 110px;
 }
 main .promotions-container .promotions-inner-container {
   padding: 1rem 0.5rem;
