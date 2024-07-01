@@ -1711,8 +1711,8 @@ input.current-balance {
   gap: 10px;
 }
 .home-thumbnail-container .image-container {
-  width: 19%;
-  height: 176px;
+  width: 24%;
+  height: 130px;
   border-radius: 9px;
   background-size: cover !important;
   background-position: center !important;
