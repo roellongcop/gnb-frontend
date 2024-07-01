@@ -175,4 +175,7 @@
   .thumbnail-container {
     flex: 0 0 calc(40% - 10px);
   }
+  .thumbnail-btn-container button {
+    font-size: 10px;
+  }
 }

@@ -148,4 +148,7 @@
   main.affiliates-container .affiliates-main-container {
     padding: 2rem 2rem;
   }
+  .thumbnail-btn-container button {
+    font-size: 12px;
+  }
 }

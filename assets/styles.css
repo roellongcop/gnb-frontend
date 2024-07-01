@@ -2022,3 +2022,32 @@ input.current-balance {
   width: 15px;
   margin-top: 2px;
 }
+
+.thumbnail-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.thumbnail-btn-container button {
+  width: 32.5%;
+  border-radius: 9px;
+  border: none;
+  background: #125C50;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 12px;
+}
+.thumbnail-btn-container button:hover {
+  background: #1EC3A8;
+}
+.thumbnail-btn-container button.active {
+  background: #1EC3A8;
+}
+
+
